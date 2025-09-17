@@ -2,25 +2,25 @@
 2025 하나금융TI ESG 성장 프렌즈 : Glocal Leaders - 인천진산과학고등학교
 
 
-## [강의자료](https://www.notion.so/Glocal-Leaders-1f0d86ea13aa809da42cc3d9a5f65133)
+### [강의자료 Notion 페이지](https://www.notion.so/Glocal-Leaders-1f0d86ea13aa809da42cc3d9a5f65133)
 
 #### 사전 준비
 
-[0.  사전 준비 (개발 실습 환경 구축 : Git/GitHub, Python, VSCode 설치)](https://www.notion.so/0-Git-GitHub-Python-VSCode-1f0d86ea13aa809381f8fa98f6e3eec3?pvs=21)
+0.  사전 준비 (개발 실습 환경 구축 : Git/GitHub, Python, VSCode 설치)
 
-## 5/16 (금) : 파이썬 문법 배우기
+#### 5/16 (금) : 파이썬 문법 배우기
 
-[1. 멘토링 소개](https://www.notion.so/1-1f0d86ea13aa8145b892cece343214f7?pvs=21)
+1. 멘토링 소개
 
-[2.  파이썬 배우기 - 기초 문법](https://www.notion.so/2-1f0d86ea13aa819a8431f17e5258f812?pvs=21)
+2.  파이썬 배우기 - 기초 문법
 
-[3.  파이썬 배우기 - 모듈과 라이브러리, 가상환경 설정](https://www.notion.so/3-1f0d86ea13aa81eeae7ee30a32ac9e63?pvs=21)
+3.  파이썬 배우기 - 모듈과 라이브러리, 가상환경 설정
 
-[4.  파이썬 배우기 - 활용](https://www.notion.so/4-1f0d86ea13aa814c80a0c43f3c021aaf?pvs=21)
+4.  파이썬 배우기 - 활용
 
 ---
 
-[과제 - (1) 파이썬 문법 연습 / (2) 파이썬 라이브러리 활용 USGS (미국 지질조사국) 지진 데이터 처리](https://www.notion.so/1-2-USGS-1f0d86ea13aa80b0a668c6f392461755?pvs=21)
+과제 - (1) 파이썬 문법 연습 / (2) 파이썬 라이브러리 활용 USGS (미국 지질조사국) 지진 데이터 처리
 
 <aside>
 💡
@@ -51,13 +51,13 @@
 
 </aside>
 
-## 6/13 (금) :  Git/Github 활용하기 / 데이터 분석 기초
+#### 6/13 (금) :  Git/Github 활용하기 / 데이터 분석 기초
 
-[5. Git/Github 활용하기](https://www.notion.so/5-Git-Github-20ed86ea13aa80f5b9a0d37817da4b41?pvs=21)
+5. Git/Github 활용하기
 
-[6. 데이터 분석 기초](https://www.notion.so/6-20fd86ea13aa8047bdfafd6933bd141f?pvs=21)
+1. 데이터 분석 기초
 
-[과제 - (3) 공공데이터분석 기온 / Github 업로드 ](https://www.notion.so/3-Github-230d86ea13aa8090af83c46d8460c177?pvs=21)
+과제 - (3) 공공데이터분석 기온 / Github 업로드 
 
 <aside>
 💡
@@ -101,7 +101,7 @@
 
 [공공데이터 포털](https://www.data.go.kr/tcs/puc/selectPublicUseCaseListView.do)
 
-### 기상청 날씨마루 데이터 분석 자료
+##### 기상청 날씨마루 데이터 분석 자료
 
 [Python을 활용한 분석](https://bd.kma.go.kr/kma2020/dta/edu/KBP57200_Python.do?pageNum=5&menuCd=F040303000)
 
@@ -128,7 +128,7 @@
     [2022_Python_Edu_training.pdf](attachment:9c88c16a-46f1-4b24-a493-680d3cde27ea:2022_Python_Edu_training.pdf)
     
 
-## 8/22(금) : API 와 서버
-## 9/5 : 청라 데이터 센터 방문 / 중간 발표회
-## 9/19(금) : 데이터분석 API 서버 / 폭염 데이터 분석 웹 서비스
-[7.  API 서버, 데이터분석 서버, 폭염데이터분석 서비스](https://www.notion.so/7-API-254d86ea13aa8092bad2c34590d4437e?pvs=21)
+#### 8/22(금) : API 와 서버
+#### 9/5 : 청라 데이터 센터 방문 / 중간 발표회
+#### 9/19(금) : 데이터분석 API 서버 / 폭염 데이터 분석 웹 서비스
+7.  API 서버, 데이터분석 서버, 폭염데이터분석 서비스
