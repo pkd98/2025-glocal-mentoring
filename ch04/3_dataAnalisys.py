@@ -17,11 +17,11 @@ import uvicorn, nest_asyncio
 import pandas as pd
 
 file_paths = [
-    "heatwave_2021_07.csv",
-    "heatwave_2022_07.csv",
-    "heatwave_2023_07.csv",
-    "heatwave_2024_07.csv",
-    "heatwave_2025_07.csv",
+    "ch04/heatwave_2021_07.csv",
+    "ch04/heatwave_2022_07.csv",
+    "ch04/heatwave_2023_07.csv",
+    "ch04/heatwave_2024_07.csv",
+    "ch04/heatwave_2025_07.csv",
 ]
 
 combined_df = pd.DataFrame()
