@@ -3,9 +3,18 @@
 uvicorn 2_crud:app --reload
 '''
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn, nest_asyncio
 
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],                # 모든 오리진 허용
+    allow_origin_regex=".*",            # 'null'(file://) 오리진까지 광범위 허용
+    allow_credentials=False,            # file://일 땐 credentials X 권장
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # 임시 저장소 (실습용)
 items = {
     1: {"name": "사과", "price": 1000},
@@ -47,3 +56,6 @@ def delete_item(item_id: int):
         raise HTTPException(status_code=404, detail="아이템 없음")
     del items[item_id]
     return {"msg": "삭제 완료"}
+
+# 서버 실행 (백그라운드처럼 돌기 때문에 커널이 안 멈춤)
+uvicorn.run(app, host="0.0.0.0", port=8000)

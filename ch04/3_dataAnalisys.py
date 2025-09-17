@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import matplotlib.pyplot as plt
 import io
+import uvicorn, nest_asyncio
 
 # ───────────────────────────────────────
 # combined_df 데이터 프레임 생성
@@ -101,3 +102,6 @@ def top_heat_days(
         "k": k,
         "data": topk[["일시", "연도", "최고기온(°C)"]].to_dict(orient="records")
     }
+
+# 서버 실행 (백그라운드처럼 돌기 때문에 커널이 안 멈춤)
+uvicorn.run(app, host="0.0.0.0", port=8000)
